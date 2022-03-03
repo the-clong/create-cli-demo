@@ -1,0 +1,17 @@
+{
+  "name": "@lbg/tools",
+  "private": true,
+  "scripts": {
+    "dev:pc": "lerna run dev --scope build-my-app"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "lerna": "4.0.0",
+    "postcss": "^8.4.4",
+    "postcss-loader": "^6.2.1",
+    "postcss-px-to-viewport": "^1.1.1"
+  }
+}

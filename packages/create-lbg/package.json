@@ -1,0 +1,29 @@
+{
+  "name": "@lbgfe/ideacli",
+  "version": "1.0.0",
+  "description": "前端脚手架模板构建工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo cccc"
+  },
+  "bin": {
+    "create-lbg": "index.js"
+  },
+  "files": [
+    "index.js",
+    "template-*"
+  ],
+  "keywords": [
+    "脚手架",
+    "模板",
+    "cli"
+  ],
+  "author": "lbg-fe",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "kolorist": "^1.5.0",
+    "minimist": "^1.2.5",
+    "ora": "^3.4.0"
+  }
+}
